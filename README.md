@@ -1,18 +1,22 @@
----
+## **Summary**
 
-## **Project Summary**
+This project is a simple Java Maven application built and automated using Jenkins as part of **TASK 8** in my DevOps internship. The goal was to understand the process of setting up a Continuous Integration (CI) pipeline for a basic Java application.
 
-This project involves installing and running **Netdata** on an **Ubuntu EC2 instance** using **Docker** to monitor real-time system and container metrics. The setup uses host networking for easy access and displays live dashboards for CPU, memory, disk I/O, network traffic, and Docker container performance. The goal was to explore lightweight server monitoring for DevOps environments.
+**Steps followed:**
 
----
+1. Installed Java JDK, Maven, and Git.
+2. Created a Java Hello World application and Maven `pom.xml` file.
+3. Verified the project build locally using Maven.
+4. Set up and started Jenkins in a Docker container.
+5. Configured Maven inside Jenkins.
+6. Created a Jenkins Freestyle job for the project.
+7. Ran the build from Jenkins and confirmed **BUILD SUCCESS** in the console output.
 
-## **Steps Performed**
+**Learning Outcomes:**
 
-1. **Pulled the Netdata image** from Docker Hub.
-2. **Ran Netdata container** with host networking and necessary mounts
-3. **Verified container status** using `docker ps` and `curl` commands.
-4. **Opened port 19999** in AWS Security Group for browser access.
-5. **Accessed Netdata dashboard** via `http://<EC2-Public-IP>:19999`.
-6. **Captured screenshots** of System Overview and Container metrics.
+* Understanding of Java Maven project structure.
+* Knowledge of running Jenkins in Docker.
+* Experience configuring Maven in Jenkins.
+* Ability to create and run Jenkins Freestyle jobs.
 
 ---
